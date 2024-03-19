@@ -1,0 +1,16 @@
+*{
+    box-sizing:border-box ;
+}
+.homesection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(198, 209, 209);*/
+    background-color: rgb(23, 28, 29);
+    color: aliceblue;
+}
+
+    
+    

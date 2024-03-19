@@ -1,0 +1,17 @@
+#tesimonials{
+    background-color: rgb(180, 188, 192);
+    width: 100vw;
+    height: auto;
+  
+}
+.thead{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 48px;
+}
+.tcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

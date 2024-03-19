@@ -1,0 +1,16 @@
+#project{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(239, 248, 245);
+}
+.phead{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    padding: 47px;
+}
+.pcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

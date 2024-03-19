@@ -1,0 +1,17 @@
+.scard{
+    width: 350px ;
+    height: auto;
+    background-color: beige;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    
+}
+.serviceimage{
+    width: 350px;
+    height: 200px;
+    border-radius: 7px;
+    
+}
