@@ -12,11 +12,11 @@
     width: 100vw;
     height: auto;
     text-align: center;
-    padding:47px ;
+    padding:51px ;
 }
 .skitems{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
    
 }

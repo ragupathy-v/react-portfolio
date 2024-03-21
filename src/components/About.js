@@ -9,8 +9,8 @@ function About() {
         <section id='about' className='aboutsection'>
             <div className='about'>
                 <h1 className='h1 '>About</h1>
-                <p>{subTitle}</p>
-                <p className='px-4'>{description}</p>
+                <p className='text-center'>{subTitle}</p>
+                <p className='px-4 text-center'>{description}</p>
                 <Social />
             </div>
             <div className='imagediv'>

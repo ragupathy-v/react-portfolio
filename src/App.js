@@ -1,7 +1,7 @@
 import './App.css';
 import About from './components/About';
 import Herosection from './components/Herosection';
-import Navbar from './components/Navbar';
+import Navbars from './components/Navbar';
 import Project from './components/Project';
 import Services from './components/Services';
 import Skill from './components/Skill';
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbars />
       <Herosection />
       <About />
       <Services />

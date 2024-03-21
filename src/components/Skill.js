@@ -13,7 +13,7 @@ function Skill() {
   }, [])
   return (
     <section id='skill' className='skmain'>
-      <h1 className='skhead h1'>Skill</h1>
+      <h1 className='skhead h1'>Skills</h1>
       <div className='skitems h1'></div>
       {skdata && skdata.map((skdata, index) => (
         <img className='skimage' key={index} src={skdata.image.url} alt='skills'></img>
