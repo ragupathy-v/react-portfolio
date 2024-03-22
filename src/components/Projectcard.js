@@ -4,7 +4,7 @@ function Projectcard(props) {
   return (
     <section className='pmain'>
       <div >
-        <img className='pimage' src={props.image} alt='service'></img>
+       <button><img className='pimage' src={props.image} alt='service'></img></button>
       </div>
     </section>
   )

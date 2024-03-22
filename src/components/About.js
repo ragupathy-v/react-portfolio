@@ -7,16 +7,21 @@ function About() {
     const { user: { about: { avatar: { url }, subTitle, description } } } = data || { user: { about: { avatar: {} } } }
     return (
         <section id='about' className='aboutsection'>
-            <div className='about'>
-                <h1 className='h1 '>About</h1>
-                <p className='text-center'>{subTitle}</p>
-                <p className='px-4 text-center'>{description}</p>
-                <Social />
-            </div>
-            <div className='imagediv'>
-                <img className='image' src={url} alt='john doe ' />
 
+            <h1 className='abouthead'>About</h1>
+           
+            <div className='main'>
+                <div className='description'>
+                    <p className='text-center'>{subTitle}</p>
+                    <p className=' para'>{description}</p>
+                    <Social />
+                </div>
+                <div className='image-size'>
+                    <img className='image' src={url} alt='john doe ' />
+                </div>
             </div>
+           
+
         </section>
     )
 }

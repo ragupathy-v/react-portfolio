@@ -1,31 +1,45 @@
 .aboutsection{
     width: 100vw;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
+    height: auto;
     background-color: rgb(198, 209, 209);
+
+    
 }
 
-.about{
-    width: 65%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px;
-    font-size: 20px;
+.abouthead{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    padding: 60px;
 }
-.imagediv{
-    width: 35%;
+.main{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+    
+}
+.description{
     display: flex;
-    align-items: center;
+    text-align: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 60vw;
+   
+    
+}
+.image-size{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+   
 }
 .image{
-    width: 500px;
-    height: 500px;
-    border-radius: 50px;
-
+    width: 400px;
+    height: 400px;
+    border-radius: 18px;
 }
